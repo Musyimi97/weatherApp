@@ -1,5 +1,5 @@
 from django.shortcuts import render
-import pip._vendor.requests.api
+import django.contrib.sites.requests
 
 # Create your views here.
 def index(request):
